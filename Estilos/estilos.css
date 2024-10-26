@@ -1,0 +1,82 @@
+body {
+    background-color: #E7F0DC;
+}
+
+.INICIO{
+list-style: none;
+display: flex;
+background-color: #597445;
+width: 100%px;
+padding: 1px;
+}
+
+ul{
+    list-style: none;
+}
+
+.items_nav {
+display: inline;
+padding: 7px;
+}
+
+.padre{
+    
+    display: flex;
+    flex-direction: row; /*ordena los hijos en filas o columnas*/
+    justify-content: center /*justifica al centro*/;
+    
+}
+
+
+.tarjeta1{
+    max-width: 600px;
+    margin: 10px;
+    border: 4px solid #597445;
+    border-radius: 5%;
+    background-color: #729762;
+}
+
+.tarjeta2{
+    max-width: 1300px;
+    border: 4px solid #597445;
+    display: flex;
+    justify-content: center; /*coloca la tarjeta al centro */
+    text-align: center;      /* Centra el texto dentro del elemento */
+    
+}
+
+.tarjeta3{
+    max-width: 300px;
+    margin: 10px;
+    border: 4px solid #597445;
+    border-radius: 5%;
+    background-color: #58744c; 
+}
+
+.img_tarjeta{
+    width: 100%;
+    border-radius: 5%;
+    border: 4px solid #597445;
+}
+
+h1 {
+    background-image: url(./Imagenes/PORTADA.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    padding: 250px 50px;
+    height: 500xp;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    text-shadow: 3px 3px #000000;
+    color: white;
+}
+
+button{
+    background-color: #E7F0DC;
+}
+
+p{
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
